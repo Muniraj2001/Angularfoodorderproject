@@ -1,0 +1,55 @@
+/* Styles for the contact form */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  form {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 30px;
+  }
+  
+  form h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  input[type="text"], button {
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  /* Responsive styles for smaller screens */
+  @media screen and (max-width: 768px) {
+    .container {
+      max-width: 100%;
+      padding: 0 20px;
+    }
+  
+    form {
+      padding: 20px;
+    }
+  
+    input[type="text"], button {
+      font-size: 14px;
+      padding: 8px;
+    }
+  }
+  
